@@ -35,14 +35,17 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 
-         setTimeout(function() {
-                navigator.splashscreen.hide();
-            }, 5000);
+         
 
 
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
+
+setTimeout(function() {
+                navigator.splashscreen.hide();
+            }, 5000);
+        
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
