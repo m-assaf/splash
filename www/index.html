@@ -43,5 +43,13 @@
 
 
         </script>
+
+        <script>
+            document.addEventListener("deviceready", onDeviceReady, false);
+                function onDeviceReady() {
+                    navigator.splashscreen.hide()
+            }
+        </script>
+
     </body>
 </html>

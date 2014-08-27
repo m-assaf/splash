@@ -18,11 +18,11 @@
 
     <preference name="phonegap-version" value="3.5.0" /> 
 
-   
-  
-    <gap:plugin name="SplashScreen" value="org.apache.cordova.core.SplashScreen" />
+    
+    <gap:plugin name="org.apache.cordova.core.splashscreen" />
+
     <!-- ios -->
-    <preference name="AutoHideSplashScreen" value="false" /> 
+    <preference name="auto-hide-splash-screen" value="false" />
     <!--
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
