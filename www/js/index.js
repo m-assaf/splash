@@ -53,8 +53,5 @@ var app = {
 
         console.log('Received Event: ' + id);
 
-        setTimeout(function() {
-                navigator.splashscreen.hide();
-            }, 5000);
     }
 };
