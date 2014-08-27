@@ -20,7 +20,7 @@
     <preference name="auto-hide-splash-screen" value="true" /> 
     <preference name="show-splash-screen-spinner" value="true" /> 
     <preference name="FadeSplashScreen" value="true"/> 
-    <preference name="FadeSplashScreenDuration" value="2"/> 
+    <preference name="FadeSplashScreenDuration" value="5"/> 
 
     <gap:plugin name="org.apache.cordova.core.splashscreen" />
 
