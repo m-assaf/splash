@@ -19,8 +19,9 @@
 
      
     <preference name="show-splash-screen-spinner" value="false" />
-    <preference name="auto-hide-splash-screen" value="false" />
-    <preference name="AutoHideSplashScreen" value="false" /> 
+
+    <!-- <preference name="auto-hide-splash-screen" value="false" /> -->
+    <!-- <preference name="AutoHideSplashScreen" value="false" /> -->
     <!--<preference name="FadeSplashScreen" value="true"/> -->
     <!-- <preference name="FadeSplashScreenDuration" value="10"/> -->
 
@@ -30,7 +31,7 @@
         <param name="ios-package" value="CDVSplashScreen"/>
         <param name="onload" value="true" />
     </feature>
-
+    <preference name="AutoHideSplashScreen" value="false" />
 
     <!-- ios -->
     <!-- <preference name="auto-hide-splash-screen" value="false" /> -->
