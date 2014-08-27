@@ -21,6 +21,7 @@
     <gap:plugin name="org.apache.cordova.core.splashscreen" />
     <!-- ios -->
     <preference name="AutoHideSplashScreen" value="false" /> 
+    <!--
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="SplashScreen">
@@ -34,7 +35,7 @@
 
         <framework src="CoreGraphics.framework" />
     </platform>
-
+    -->
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
