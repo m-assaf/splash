@@ -41,11 +41,11 @@ var app = {
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-
-setTimeout(function() {
+        /*
+        setTimeout(function() {
                 navigator.splashscreen.hide();
-            }, 5000);
-        
+            }, 5000); */
+
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
