@@ -19,6 +19,21 @@
     <preference name="phonegap-version" value="3.5.0" /> 
 
     <gap:plugin name="org.apache.cordova.core.splashscreen" />
+    <!-- ios -->
+    <preference name="AutoHideSplashScreen" value="true" /> 
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="SplashScreen">
+                <param name="ios-package" value="CDVSplashScreen"/>
+                <param name="onload" value="true"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CDVSplashScreen.h" />
+        <source-file src="src/ios/CDVSplashScreen.m" />
+
+        <framework src="CoreGraphics.framework" />
+    </platform>
 
 
     <!-- Define app icon for each platform. -->
