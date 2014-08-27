@@ -42,9 +42,7 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         
-        setTimeout(function() {
-                navigator.splashscreen.hide();
-            }, 5000);
+        
 
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
@@ -54,5 +52,9 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+
+        setTimeout(function() {
+                navigator.splashscreen.hide();
+            }, 5000);
     }
 };
