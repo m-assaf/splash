@@ -22,7 +22,7 @@
     <gap:plugin name="org.apache.cordova.core.splashscreen" />
 
     <!-- ios -->
-    <preference name="auto-hide-splash-screen" value="false" />
+    <preference name="auto-hide-splash-screen" value="true" />
     <!--
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
