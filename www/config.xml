@@ -17,11 +17,15 @@
 
     <preference name="phonegap-version" value="3.5.0" /> 
 
-    
+    <preference name="auto-hide-splash-screen" value="true" /> 
+    <preference name="show-splash-screen-spinner" value="true" /> 
+    <preference name="FadeSplashScreen" value="true"/> 
+    <preference name="FadeSplashScreenDuration" value="2"/> 
+
     <gap:plugin name="org.apache.cordova.core.splashscreen" />
 
     <!-- ios -->
-    <preference name="auto-hide-splash-screen" value="false" />
+    <!-- <preference name="auto-hide-splash-screen" value="false" /> -->
  
 
     <!-- Define app icon for each platform. -->
