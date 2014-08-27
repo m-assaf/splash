@@ -8,5 +8,5 @@
         navigator.splashscreen.hide();
         setTimeout(function() {
                 navigator.splashscreen.hide();
-            }, 5000);
+            }, 2000);
     }
