@@ -17,7 +17,7 @@
 
     <preference name="phonegap-version" value="3.5.0" /> 
 
-    <preference name="auto-hide-splash-screen" value="true" /> 
+    <preference name="auto-hide-splash-screen" value="false" /> 
     <preference name="show-splash-screen-spinner" value="true" /> 
     <!--<preference name="FadeSplashScreen" value="true"/> -->
     <!-- <preference name="FadeSplashScreenDuration" value="10"/> -->
