@@ -42,6 +42,7 @@
             //app.initialize();
         </script>
         <script type="text/javascript" charset="utf-8">
+        document.addEventListener("deviceready", onDeviceReady, false);
             function onDeviceReady() {
                 //alert("onDeviceReady");
                 setTimeout(function() {
@@ -49,7 +50,7 @@
                 }, 6000); 
 
             }
-            document.addEventListener("deviceready", onDeviceReady, false);
+            
         </script>
 
     </body>
