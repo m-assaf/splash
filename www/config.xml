@@ -31,7 +31,7 @@
 
     <gap:plugin name="org.apache.cordova.core.splashscreen" version="0.2.3" />
 
-    <preference name="splash-screen-duration" value="7000" />
+    <!-- <preference name="splash-screen-duration" value="7000" /> -->
     <!--
     <feature name="SplashScreen">
         <param name="ios-package" value="CDVSplashScreen" />

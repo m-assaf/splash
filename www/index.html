@@ -26,8 +26,20 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <meta name="msapplication-tap-highlight" content="no" />
         <title>Hello World</title>
+        <script type="text/javascript" charset="utf-8">
+            document.addEventListener("deviceready", onDeviceReady, false);
+            function onDeviceReady() {
+                //alert("onDeviceReady");
+                setTimeout(function() {
+                    navigator.splashscreen.hide();
+                }, 6000); 
+
+            }
+            
+        </script>
+
     </head>
-    <body>
+    <body onload="onDeviceReady()">
         <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
@@ -41,17 +53,7 @@
         <script type="text/javascript">
             //app.initialize();
         </script>
-        <script type="text/javascript" charset="utf-8">
-        document.addEventListener("deviceready", onDeviceReady, false);
-            function onDeviceReady() {
-                //alert("onDeviceReady");
-                setTimeout(function() {
-                    navigator.splashscreen.hide();
-                }, 6000); 
-
-            }
-            
-        </script>
+       
 
     </body>
 </html>
