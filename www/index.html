@@ -39,7 +39,18 @@
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
-            app.initialize();
+            //app.initialize();
         </script>
+        <script type="text/javascript">
+            function onDeviceReady() {
+                alert("onDeviceReady");
+                setTimeout(function() {
+                    navigator.splashscreen.hide();
+                }, 6000); 
+
+            }
+            document.addEventListener("deviceready", onDeviceReady, false);
+        </script>
+
     </body>
 </html>
