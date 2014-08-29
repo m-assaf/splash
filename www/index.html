@@ -30,12 +30,14 @@
         <script type="text/javascript" charset="utf-8">
             document.addEventListener("deviceready", onDeviceReady, false);
             function onDeviceReady() {
-            
+                navigator.splashscreen.hide();
+                /*
                 setTimeout(function() {
                     navigator.splashscreen.hide();
                 }, 6000); 
-
+                */
             }
+
             
         </script>
     
@@ -51,7 +53,7 @@
         </div>
         
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
+        <!-- <script type="text/javascript" src="js/index.js"></script> -->
         <script type="text/javascript">
             //app.initialize();
         </script>
